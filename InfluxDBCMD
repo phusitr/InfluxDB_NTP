@@ -1,0 +1,2 @@
+1. Create database 
+CREATE USER test WITH PASSWORD 'password' WITH ALL PRIVILEGES
