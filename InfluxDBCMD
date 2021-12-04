@@ -1,2 +1,11 @@
-1. Create database 
+1. Create users 
 CREATE USER test WITH PASSWORD 'password' WITH ALL PRIVILEGES
+
+2.Create database
+CREATE DATABASE nettimes_internal 
+
+3. Show databases
+SHOW DATABASES;
+
+4. INSERT data stored
+INSERT nettimes,type=ntpoffset,delay=0.000 offset=0.001,jitter=0.001
