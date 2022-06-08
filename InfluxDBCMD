@@ -9,3 +9,6 @@ SHOW DATABASES;
 
 4. INSERT data stored
 INSERT nettimes,type=ntpoffset,delay=0.000 offset=0.001,jitter=0.001
+
+5. Show field key
+show field keys on nettimes_internal from dailypeer
